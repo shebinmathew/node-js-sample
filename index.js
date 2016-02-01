@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
    console.log(foo());
-   response.send('Hello World123!')  
+   response.send('Hello World123!'+foo())  
 })
 
 
