@@ -10,7 +10,7 @@ app.get('/', function(request, response) {
 })
 
 
-var foo = function (req, res, next) {
+var foo = function (time1,time2) {
   return ('foo');
 }
 app.listen(app.get('port'), function() {
