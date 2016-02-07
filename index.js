@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
    
-  response.send(request)
+  response.send('hello')
 })
 
 function goodtimeCheck(){}
