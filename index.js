@@ -6,16 +6,11 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
   
- return ( request+ '  '+ respnse)
+ return 'hello';
   
 })
 
-
-function checkbusy(){
-   
-   
-   return 1;
-}
+ 
 
 
 var foo = function (time1,time2) {
