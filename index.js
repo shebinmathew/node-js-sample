@@ -5,9 +5,17 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-   console.log(foo());
-   response.send('Hello World123!'+foo())  
+  
+ return ( request+ '  '+ respnse)
+  
 })
+
+
+function checkbusy(){
+   
+   
+   return 1;
+}
 
 
 var foo = function (time1,time2) {
